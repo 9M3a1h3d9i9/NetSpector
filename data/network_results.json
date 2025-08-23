@@ -58,5 +58,35 @@
             "download_speed": 5.21,
             "upload_speed": 2.71
         }
+    },
+    {
+        "timestamp": "2025-08-23T21:10:02.919037",
+        "connection_name": "Mahdi_CS_313",
+        "ping": {
+            "avg_latency": 2474.1649627685547,
+            "min_latency": 1979.8500537872314,
+            "max_latency": 2721.508264541626,
+            "jitter": 428.0893089883497,
+            "packet_loss": 40.0
+        },
+        "speed": {
+            "download_speed": 7.04,
+            "upload_speed": 2.62
+        }
+    },
+    {
+        "timestamp": "2025-08-23T21:11:11.675002",
+        "connection_name": "Mahidi_CS_313",
+        "ping": {
+            "avg_latency": 275.6195545196533,
+            "min_latency": 259.6123218536377,
+            "max_latency": 312.4840259552002,
+            "jitter": 21.867732654548146,
+            "packet_loss": 0.0
+        },
+        "speed": {
+            "download_speed": 3.23,
+            "upload_speed": 2.75
+        }
     }
 ]
