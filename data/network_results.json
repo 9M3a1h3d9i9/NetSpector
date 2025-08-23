@@ -1,0 +1,62 @@
+[
+    {
+        "timestamp": "2025-08-23T15:34:55.703652",
+        "connection_name": "MCI - Mahdi",
+        "ping": {
+            "avg_latency": 196.03943824768066,
+            "min_latency": 165.3919219970703,
+            "max_latency": 210.30902862548828,
+            "jitter": 19.053109475136484,
+            "packet_loss": 0.0
+        },
+        "speed": {
+            "download_speed": 4.17,
+            "upload_speed": 2.55
+        }
+    },
+    {
+        "timestamp": "2025-08-23T17:02:09.146208",
+        "connection_name": "MahdiCS313",
+        "ping": {
+            "avg_latency": 169.21699047088623,
+            "min_latency": 164.7953987121582,
+            "max_latency": 173.63858222961426,
+            "jitter": 6.253075032470282,
+            "packet_loss": 60.0
+        },
+        "speed": {
+            "download_speed": 0.0,
+            "upload_speed": 0.0
+        }
+    },
+    {
+        "timestamp": "2025-08-23T20:10:30.092103",
+        "connection_name": "Unknown-Connection",
+        "ping": {
+            "avg_latency": 31.908226013183594,
+            "min_latency": 30.47800064086914,
+            "max_latency": 33.1425666809082,
+            "jitter": 1.0045968113461763,
+            "packet_loss": 0.0
+        },
+        "speed": {
+            "download_speed": 0.0,
+            "upload_speed": 0.0
+        }
+    },
+    {
+        "timestamp": "2025-08-23T20:58:37.974540",
+        "connection_name": "Mahdi_CS_313",
+        "ping": {
+            "avg_latency": 304.7508239746094,
+            "min_latency": 243.8337802886963,
+            "max_latency": 497.93100357055664,
+            "jitter": 108.7091062289853,
+            "packet_loss": 0.0
+        },
+        "speed": {
+            "download_speed": 5.21,
+            "upload_speed": 2.71
+        }
+    }
+]
