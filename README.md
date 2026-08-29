@@ -1,33 +1,65 @@
-# NetSpector - Network Monitoring & Analysis Framework
+# NetSpector
 
-<div align="center">
+> Modular network monitoring and analysis framework for practical observability (پایش‌پذیری) experiments.
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Network](https://img.shields.io/badge/Network-Monitoring-green.svg)
-![Status](https://img.shields.io/badge/Status-Stable%20Core-orange.svg)
+## Overview
 
-**پلتفرم پایه برای مانیتورینگ و تحلیل شبکه - قابل توسعه به سیستم‌های هوشمند**
+NetSpector provides a small, extensible foundation for monitoring network performance and collecting structured measurements. The project demonstrates practical networking concepts while leaving a clear path toward intelligent monitoring and anomaly detection.
 
-</div>
+## Current Capabilities
 
-##  Overview
+- Real-time network monitoring
+- Ping-based latency measurement
+- Jitter and packet-loss analysis
+- Download/upload speed testing
+- Structured result storage
+- Console and GUI interfaces
 
-NetSpector یک فریم‌ورک ماژولار برای مانیتورینگ و تحلیل شبکه است که به عنوان **پایه‌ای قوی** برای توسعه سیستم‌های پیشرفته شبکه‌ای طراحی شده است. این پروژه نشان‌دهنده توانایی پیاده‌سازی مفاهیم پایه شبکه و قابلیت گسترش به حوزه‌های پیشرفته است.
+## Architecture
 
-##  ویژگی‌های فعلی
-
-###  قابلیت‌های پایه
-- **مانیتورینگ Real-time** شبکه
-- **تست پینگ پیشرفته** با محاسبه latency, jitter, packet loss
-- **تست سرعت اینترنت** (Download/Upload)
-- **ذخیره‌سازی ساختاریافته** نتایج
-- **رابط دوگانه** (Console + GUI)
-
-###  معماری ماژولار
-```python
+```text
 NetSpector/
 ├── core/
-│   ├── NetworkTester.py    # ماژول تست شبکه
-│   ├── ResultStorage.py    # مدیریت ذخیره‌سازی
-│   └── GUI.py             # رابط گرافیکی
-└── examples/              # نمونه‌های استفاده
+│   ├── NetworkTester.py
+│   ├── ResultStorage.py
+│   └── GUI.py
+└── examples/
+```
+
+## Development Status
+
+**Prototype with a stable core.**
+
+The current implementation is positioned as a networking foundation, not as a telecom-grade NMS (Network Management System).
+
+## Future Direction
+
+The next logical evolution is intelligent monitoring:
+
+```text
+Network Measurements
+        ↓
+KPI Collection
+        ↓
+Time-Series Analysis
+        ↓
+Anomaly Detection
+        ↓
+Alerting / Diagnosis
+        ↓
+Optimization Support
+```
+
+Potential extensions include historical KPI dashboards, threshold management, anomaly detection, and integration with mobile/RAN monitoring concepts.
+
+## Why It Matters
+
+NetSpector supports the practical networking side of the portfolio and complements research projects focused on graph learning and reinforcement-learning-based optimization.
+
+## Technology
+
+Python • Networking • Monitoring • GUI
+
+## Author
+
+Mohammad Mahdi Shafighi — M.Sc. Artificial Intelligence
